@@ -11,7 +11,7 @@ gerando insights que poderiam apoiar decisões de RH para reduzir o turnover.
 ## Dataset
 IBM HR Analytics Employee Attrition & Performance
 - ~1470 registros, 35 colunas
-- Fonte :https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
+- Fonte: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 ## Ferramentas
 - SQL Server
