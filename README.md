@@ -14,7 +14,7 @@ IBM HR Analytics Employee Attrition & Performance
 - Fonte:[link do Kaggle]](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
 ## Ferramentas
-- SQL (Server/PostgreSQL/MySQL — definir qual você vai usar)
+- SQL Server
 - Power BI
 
 ## Estrutura do Projeto
