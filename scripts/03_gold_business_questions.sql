@@ -22,10 +22,10 @@ GROUP BY Department, JobRole;
 --3. Funcionários que fazem overtime têm attrition maior?
 SELECT 
     overtime,
-    COUNT(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) total_attrition,
+    COUNT(CASE WHEN attrition = 'Yes' THEN 1 END) total_attrition,
     COUNT(*) total_funcionarios,
     ROUND(
-    CAST(COUNT(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END)  AS DECIMAL (10,1)) / COUNT(*) * 100 ,0) overtime_percent
+    CAST(COUNT(CASE WHEN attrition = 'Yes' THEN 1 END)  AS DECIMAL (10,1)) / COUNT(*) * 100 ,0) overtime_percent
 FROM vw_clean_hr_employee_attrition
 GROUP BY overtime;
 
