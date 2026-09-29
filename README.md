@@ -19,11 +19,16 @@ IBM HR Analytics Employee Attrition & Performance
 
 ## Estrutura do Projeto
 1. Limpeza de Dados (Data Cleaning)
-2. Análise Exploratória
-3. Perguntas de Negócio
-4. Dashboard Power BI
-5. Insights e Conclusões
+2. Testes de Qualidade de Dados
+3. Análise Exploratória
+4. Perguntas de Negócio
+5. Dashboard Power BI
+6. Insights e Conclusões
 
+## Documentação
+- [Dicionário de Dados](docs/data_dictionary.md)
+- [Principais Descobertas](docs/findings.md)
+  
 ## Perguntas de Negócio
 - Qual o percentual geral de attrition e por departamento/cargo?
 - Funcionários que fazem hora extra (overtime) saem mais?
@@ -36,4 +41,4 @@ IBM HR Analytics Employee Attrition & Performance
 [print/link do dashboard Power BI ao final]
 
 ## Principais Descobertas
-[preencher ao final do projeto]
+Veja a análise completa em [docs/findings.md](docs/findings.md)
